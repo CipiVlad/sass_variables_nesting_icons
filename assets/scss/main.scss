@@ -1,0 +1,118 @@
+// importieren von generals (einer ausgelagerten Datei) --- immerg ganz oben wie bei fonts
+@import "_generals.scss";
+@import "_mixin.scss";
+@import "_variables.scss";
+// nesting 
+// mixin
+// mit @include wird die ausgelagerte _mixin.scss aufgerufen
+
+// nav {
+//     @include flexit;
+
+//     h1 {
+//         font-size: 2rem;
+//         font-size: $large;
+//         background-color: $main-color;
+//     }
+
+//     ul {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+
+//         li {
+//             list-style: none;
+//             margin-right: 10px;
+//         }
+//     }
+
+// }
+
+// .card {
+//     margin: 100px 0px;
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);
+//     gap: 20px;
+
+//     &-image {
+//         width: 100%;
+//     }
+
+//     &-title {
+//         color: $main-color;
+//     }
+
+//     p {
+//         color: $secondary-color;
+//     }
+
+//     figure {
+//         background-color: lightgray;
+
+//         &:nth-of-type(2) h2 {
+//             color: gold;
+//         }
+
+//         &:hover {
+//             box-shadow: 0 0 10px black;
+//         }
+//     }
+// }
+
+// article h3 {
+//     @include styletext(32px, 400, pink, "", uppercase, black)
+// }
+
+main {
+    i {
+        font-size: 3rem;
+    }
+
+    div {
+        display: inline-block;
+        margin: 2vh 40px;
+
+        p {
+            font-family: $font;
+
+        }
+    }
+
+    .la-twitter {
+        color: $twitter;
+
+    }
+
+    .la-vimeo {
+        color: $vimeo;
+    }
+
+    .la-facebook-f {
+        color: $facebook;
+    }
+
+    .la-snapchat {
+        color: $snapchat;
+
+    }
+
+    .la-airbnb {
+        color: $airbnb;
+    }
+
+    .la-amazon {
+        color: black;
+    }
+
+    .la-android {
+        color: $android;
+    }
+
+    .la-github {
+        color: $github;
+    }
+
+    .la-js-square {
+        color: $js;
+    }
+}

@@ -1,0 +1,39 @@
+main i {
+  font-size: 3rem;
+}
+main div {
+  display: inline-block;
+  margin: 2vh 40px;
+}
+main div p {
+  font-family: "Helvetica Neue", sans-serif;
+}
+main .la-twitter {
+  color: #349CC3;
+}
+main .la-vimeo {
+  color: #3C5A99;
+}
+main .la-facebook-f {
+  color: #3FB7EA;
+}
+main .la-snapchat {
+  color: #FDFC00;
+}
+main .la-airbnb {
+  color: #F65C63;
+}
+main .la-amazon {
+  color: black;
+}
+main .la-android {
+  color: #A4C639;
+}
+main .la-github {
+  color: #4078C0;
+}
+main .la-js-square {
+  color: #F7DF1E;
+}
+
+/*# sourceMappingURL=style.css.map */
